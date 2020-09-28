@@ -1,0 +1,26 @@
+
+.tag-container {
+    max-width: 80%;
+    margin: 1% auto;
+    float: none;
+}
+
+.tag-item {
+    float: right;
+    display:inline-block;
+    font-size: small;
+    margin-right: 10px;
+    padding: 0.2%;
+    border: solid;
+    border-width: 1.75px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #246782;
+}
+
+.tag-item:hover {
+    background-color: #246782;
+    color: white;
+}
+

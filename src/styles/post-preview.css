@@ -1,0 +1,41 @@
+
+.post-preview {
+    margin: 30px;
+    height: 45%;
+}
+
+.post-grid {
+    padding: 1%;
+}
+
+.post-image {
+    grid-column-start: 2;
+    padding: 5%;
+    padding-left: 7%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.preview-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-title {
+    font-size: xx-large;
+    color: black;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    color: #246782;
+}
+
+.date {
+    color: #246782;
+    font-weight: bold;
+    margin-top: auto;
+  }
