@@ -5,9 +5,9 @@ const Header = () => {
         <header className="navbar">
             <a href="/">mhz blog</a>
             <div>
-                <a href="#">about</a>
-                <a href="#">archive</a>
-                <a href="#">tags</a>
+                <a href="/about">about</a>
+                <a href="/archive">archive</a>
+                <a href="/tags">tags</a>
             </div>
         </header>
     )
