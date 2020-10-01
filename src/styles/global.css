@@ -6,7 +6,6 @@ body {
   font-family: 'Lato';
   margin: 0;
   padding: 0;
-  /* background-color: #fff5d7; */
 }
 
 a {
@@ -15,7 +14,7 @@ a {
 }
 
 .wrapper {
-  max-width: 1080px;
+  max-width: 950px;
   margin: 0 auto;
   margin-top: 80px;
 }
