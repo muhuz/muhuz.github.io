@@ -7,6 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -22,8 +23,18 @@ module.exports = {
             resolve: `gatsby-remark-katex`,
             options: {
               strict: `ignore`
-            }
-          }
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+              withWebp: true,
+              linksImagesToOriginal: false,
+              showCaptions: true,
+              wrapperStyle:'margin:0;',
+            },
+          },
         ],
       },
     },

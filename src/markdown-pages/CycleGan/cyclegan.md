@@ -57,9 +57,22 @@ I tested CycleGAN on two applications listed in the paper, style transfer and un
 
 ### Style Transfer on MTG Lands
 
-For style transfer, I wanted to transfer a particular artists style onto art from Magic: The Gathering. In the CycleGAN paper, the authors implement style transfer using art by Claude Monet. Monet's body of work is a great way to test style transfer since he has a distinctive impressionist style of painting. I downloaded a 300 image dataset of Monet's works from **[Kaggle](https://www.kaggle.com/c/gan-getting-started/data)**. Another distinctive characteristic of Monet's art is that he painted a lot of different landscapes. Magic: The Gathering is a card game with over 10,000 unique cards printed since the game's initial launch in 1993. The card game boasts a wide array of card art depicting all sorts of things from monsters to magical equipments to spells. Lands are another type of card in Magic: The Gathering and they commonly feature artwork of landscapes. This makes it a good application of style transfer for Monet's landscape art.
+For style transfer, I wanted to transfer a particular artists style onto art from Magic: The Gathering. In the CycleGAN paper, the authors implement style transfer using art by Claude Monet. Monet's body of work is a great way to test style transfer since he has a distinctive impressionist style of painting. I downloaded a 300 image dataset of Monet's works from **[Kaggle](https://www.kaggle.com/c/gan-getting-started/data)**. Here are some examples of Monet's art.
 
-It took me around 16 hours to train the network for 200 epochs when the training datasets contain 360 images of size 256 x 256 using a Nvidia RTX 2060 Super.
+<div style="display: inline-flex; width: 100%;">
+  <img src="images/4ab2583fe2.jpg">
+  <img src="images/4ab2583fe2.jpg">
+  <img src="images/4ab2583fe2.jpg">
+</div>
+
+![](images/4ab2583fe2.jpg) ![](images/2e0d0e6e19.jpg) ![](images/512cd171a9.jpg)
+
+
+Magic: The Gathering is a card game with over 10,000 unique cards printed since the game's initial launch in 1993. The card game boasts a wide array of card art depicting all sorts of things from monsters to magical equipments to spells. Lands are another type of card in Magic: The Gathering and they commonly feature artwork of landscapes. This makes it a good application of style transfer for Monet's landscape art.
+
+
+
+It took me around 16 hours to train the network for 200 epochs using training datasets containing 360 images of size 256 x 256 on a Nvidia RTX 2060 Super.
 
 ### Bald to Not Bald (RoGANe)
 
