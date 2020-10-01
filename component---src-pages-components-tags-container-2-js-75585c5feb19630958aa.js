@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{AsnP:function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return a}));var u=e("q1tI"),r=e.n(u);e("byS0");function a(n){var t=n.tags.map((function(n){return r.a.createElement("li",null,n)}));return r.a.createElement("ul",null,t)}},byS0:function(n,t,e){}}]);
+//# sourceMappingURL=component---src-pages-components-tags-container-2-js-75585c5feb19630958aa.js.map

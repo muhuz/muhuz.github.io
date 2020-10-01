@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/steak/","result":{"data":{"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"frontmatter":{"title":"My second blog post","slug":"/blog/my-second-post"}}},{"node":{"frontmatter":{"title":"My first blog post","slug":"/blog/my-first-post"}}}]}},"pageContext":{"tag":"Steak"}}}

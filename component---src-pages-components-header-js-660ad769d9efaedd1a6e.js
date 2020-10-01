@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{IRsI:function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),r=n.n(t);a.default=function(){return r.a.createElement("header",{className:"navbar"},r.a.createElement("a",{href:"#"},"mhz blog"))}}}]);
+//# sourceMappingURL=component---src-pages-components-header-js-660ad769d9efaedd1a6e.js.map
