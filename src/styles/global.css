@@ -28,6 +28,7 @@ a {
     overflow: auto;
     position: fixed;
     top: 0;
+    z-index: 99;
   }
 
 .navbar a {  
