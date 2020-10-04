@@ -82,7 +82,7 @@ This is an example of how implicit biases can become incorporated in machine lea
 
 ## In Conclusion
 ---
-Since the original publication of the CycleGAN paper, there have been massive strides in the field of generative image modeling. StyleGAN2 from Nvidia produces scary good high definition images of fake people. It will be exciting keeping up with the latest GAN research. I had a lot of fun and learned a lot from implementing CycleGAN. You can find my PyTorch implementation of CycleGAN on Github. All credit goes to the original authors of this paper, Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A.
+Since the original publication of the CycleGAN paper, there have been massive strides in the field of generative image modeling. StyleGAN2 from Nvidia produces scary good high definition images of fake people. It will be exciting keeping up with the latest GAN research. I had a lot of fun and learned a lot from implementing CycleGAN. You can find my PyTorch implementation of CycleGAN on [Github](https://github.com/muhuz/GANLands). All credit goes to the original authors of this paper, Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A.
 
 ---
 # Links
